@@ -7,8 +7,12 @@
 		color: $nav-text-color;
 	}
 
-	.menu > .menu-text > a {
+	.menu > .menu-text a {
 		padding: 0;
 		display: inline;
+	}
+
+	li a.active {
+		font-weight: bold;
 	}
 }
