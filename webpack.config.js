@@ -24,6 +24,7 @@ module.exports = {
 		alias: {
 			ApplicationStyles: 'app/styles/app.scss',
 			Clock: 'app/components/Clock.jsx',
+			Controls: 'app/components/Controls.jsx',
 			CountDown: 'app/components/CountDown.jsx',
 			CountDownForm: 'app/components/CountDownForm.jsx',
 			Main: 'app/components/Layout/Main.jsx',
