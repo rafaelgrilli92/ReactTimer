@@ -7,7 +7,7 @@ var React = require('react'),
 var ClockComponent = require('Clock');
 
 describe('Clock Component', () => {
-	it('Should exists', () => {
+	it('Should exist', () => {
 		expect(ClockComponent).toExist();
 	});
 

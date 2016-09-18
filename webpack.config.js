@@ -23,11 +23,12 @@ module.exports = {
 		root: __dirname,
 		alias: {
 			ApplicationStyles: 'app/styles/app.scss',
+			Clock: 'app/components/Clock.jsx',
+			CountDown: 'app/components/CountDown.jsx',
+			CountDownForm: 'app/components/CountDownForm.jsx',
 			Main: 'app/components/Layout/Main.jsx',
 			Nav: 'app/components/Layout/Nav.jsx',
-			Timer: 'app/components/Timer.jsx',
-			CountDown: 'app/components/CountDown.jsx',
-			Clock: 'app/components/Clock.jsx'
+			Timer: 'app/components/Timer.jsx'
 		},
 		extensions: ['','.js', '.jsx']
 	},

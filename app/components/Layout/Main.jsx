@@ -6,10 +6,9 @@ var NavBar = require('Nav');
 var Main = (props) => {
 	return (
 		<div>
-			<div>
-				<NavBar />
-				<div>
-				<p>Main.jsx Rendered</p>
+			<NavBar />
+			<div className="row">
+				<div className="column small-centered medium-6 large-4">
 					{props.children}
 				</div>
 			</div>			
